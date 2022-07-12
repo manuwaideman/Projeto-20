@@ -59,7 +59,7 @@ function draw() {
   background(0);
   fill("pink");
 
-  rect(ground.position.x,ground.position.y,20,50);
+  rect(ground.position.x,ground.position.y,width,50);
   rect(bloco1.position.x,bloco1.position.y,10,10);
   rect(bloco2.position.x,bloco2.position.y,10,10);
   ellipse(bola.position.x,bola.position.y,10);
